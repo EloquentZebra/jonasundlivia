@@ -3,7 +3,6 @@
 
 	/* Blacklist some IPs */
 	$blacklist = array(
-		'127.0.0.1',
 		'165.225.95.49',
 		// etc.
 	);
@@ -11,13 +10,12 @@
 	$ip = isset($_SERVER['REMOTE_ADDR']) ? trim($_SERVER['REMOTE_ADDR']) : '';
 
 	if (($key = array_search($ip, $blacklist)) !== false) {
-		echo 'You are forbidden from accessing this resource!';
 		http_response_code(403);
 		echo trim('
 			<!DOCTYPE html><html><head><title>403</title></head><body>You are forbidden from accessing this resource!</body></html>');
 		exit();
 	}
-	
+
 	/* start Session */
 	ob_start();
 	session_start();
@@ -27,7 +25,7 @@
 <head>
 	<?php include('includes/sitehead.php'); ?>
 </head>
-<body class="login-page enable-dm">
+<body class="login-page text-center">
 	<section class="wrapper login-wrapper container ">
 		<h1 class="text-center"><strong>Wir heiraten.</strong></h1>
 		<form action="" method="post">
