@@ -68,3 +68,7 @@ iframe {
 	height: 100%;
 	border-radius: var(--border-radius);
 }
+
+.login-wrapper input {
+	margin: var(--gap) auto;
+}
