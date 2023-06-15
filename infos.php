@@ -78,7 +78,7 @@
 	</div>
 
 	<?php 
-		include('includes/footer.php');w
+		include('includes/footer.php');
 		include('includes/scripts.php');
 	?>
 </body>
