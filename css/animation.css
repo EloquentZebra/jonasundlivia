@@ -1,0 +1,63 @@
+body {
+	background: linear-gradient(45deg, #e6e6e6 0%,#7f8d84 50%,#e6e6e6 100%);
+	background-size: 400% 400%;
+	animation: anim-gradient 30s ease infinite;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-evenly;
+	overflow: hidden;
+	position: relative; 
+}
+
+body::before, 
+body::after {
+	content: "";
+	width: 70vmax;
+	height: 70vmax;
+	position: absolute;
+	background: rgba(79, 98, 86, 0.15);
+	left: -20vmin;
+	top: -20vmin;
+	animation: anim-morph 60s linear infinite alternate, anim-spin 60s linear infinite;
+	z-index: 1;
+	will-change: border-radius, transform;
+	transform-origin: 55% 55%;
+	pointer-events: none; 
+}
+	
+body::after {
+	width: 70vmin;
+	height: 70vmin;
+	left: auto;
+	right: -10vmin;
+	top: auto;
+	bottom: 0;
+	animation: anim-morph 60s linear infinite alternate, anim-spin 60s linear infinite reverse;
+	transform-origin: 20% 20%; 
+}
+
+@keyframes anim-gradient {
+	0% {
+		background-position: 0 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0 50%
+	}
+}
+
+@keyframes anim-morph {
+	0% {
+		border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%; }
+	100% {
+		border-radius: 40% 60%; } 
+}
+
+@keyframes anim-spin {
+	to {
+		transform: rotate(1turn); 
+	} 
+}
