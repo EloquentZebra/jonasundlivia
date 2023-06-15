@@ -72,3 +72,30 @@ iframe {
 .login-wrapper input {
 	margin: var(--gap) auto;
 }
+
+.branch-container {
+	position: absolute;
+	z-index: -1;
+}
+
+.branch-container img {
+	object-fit: contain;
+}
+
+.branch-1 {
+	position: absolute;
+	top: 2em;
+	left: 1em;
+	width: 550px;
+	height: 550px;
+	transform: rotate(98deg);
+}
+
+.branch-2 {
+	position: absolute;
+	top: -5em;
+	right: -10em;
+	width: 800px;
+	height: 800px;
+	transform: rotate(268deg) scaleX(-1);
+}

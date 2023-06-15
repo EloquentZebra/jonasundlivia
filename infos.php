@@ -69,14 +69,6 @@
 		</div>
 	</article>
 
-	<div class="branch-container branch-1">
-		<img src="img/olivebranch-2.svg" alt="" class="branch">
-	</div>
-
-	<div class="branch-container branch-2">
-		<img src="img/olivebranch-2.svg" alt="" class="branch">
-	</div>
-
 	<?php 
 		include('includes/footer.php');
 		include('includes/scripts.php');
