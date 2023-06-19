@@ -29,7 +29,7 @@
 
 	<article id="anmeldung">
 		<h1>Anmeldung</h1>
-		<p>Die Anmeldung ist bis zum 15. August möglich.</p>
+		<p>Die Anmeldung ist bis zum 15. Juli möglich.</p>
 		<div class="iframe-container anmeldung">
 			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecJT-gSnljmoNy7KeCwV0hz1DVxEJxy8mrki8j_mO1QPG9nw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
 		</div>
