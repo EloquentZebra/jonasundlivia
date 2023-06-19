@@ -1,5 +1,6 @@
 <?php
-	require('includes/credentials.php');
+	include('includes/credentials.php');
+	$validPw = '7ddd5e9c36898d86b3902a07c606dea8';
 
 	/* Blacklist some IPs */
 	$blacklist = array(
@@ -30,9 +31,11 @@
 		<h1 class="text-center"><strong>Wir heiraten.</strong></h1>
 		<form action="" method="post">
 			<?php
-				$pw = htmlspecialchars($_POST['password']);
 				if (isset($_POST['password'])) {
-					if ($pw == $validPw || $pw = strtoupper($validPw)) {
+					$pw = htmlspecialchars($_POST['password']);
+					$pw = md5(strtoupper($pw));
+
+					if ($pw === $validPw) {
 						$_SESSION['login'] = true;
 						header('Location: infos.php');
 					} else {
