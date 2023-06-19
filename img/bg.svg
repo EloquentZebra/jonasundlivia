@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 3000 3000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(5.86802,0,0,4.00054,-681.239,-998.394)">
+        <g id="Ebene1">
+            <rect x="112.96" y="246.935" width="517.513" height="759.194" style="fill:white;"/>
+        </g>
+    </g>
     <g transform="matrix(0.542513,0.542513,-0.542513,0.542513,464.187,32.7931)">
         <path d="M751.918,487.212L1237.18,785.431L1051.82,1267.96L452.012,1267.96L266.66,785.431L751.918,487.212Z" style="fill:rgb(197,203,199);"/>
     </g>
