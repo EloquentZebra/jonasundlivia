@@ -4,7 +4,7 @@
 
 	/* Blacklist some IPs */
 	$blacklist = array(
-		'165.225.95.49',
+		// '165.225.95.49', Office IP
 		// etc.
 	);
 
@@ -13,7 +13,7 @@
 	if (($key = array_search($ip, $blacklist)) !== false) {
 		http_response_code(403);
 		echo trim('
-			<!DOCTYPE html><html><head><title>403</title></head><body>You are forbidden from accessing this resource!</body></html>');
+			<!DOCTYPE html><html><head><title>403</title></head><body><h1><code>403 Forbidden</code></h1><p>You are forbidden from accessing this resource!</p></body></html>');
 		exit();
 	}
 
