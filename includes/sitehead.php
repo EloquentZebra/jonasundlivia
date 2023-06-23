@@ -28,3 +28,17 @@
 <meta property="og:url" content="https://www.jonasundlivia.ch">
 <meta property="og:description" content="Die Internetseite zur Hochzeit von Jonas und Livia.">
 <meta property="og:image" content="img/og-banner.jpg">
+
+<!-- Matomo -->
+<script>
+	var _paq = window._paq = window._paq || [];
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="//tentacled-seagull.pikapod.net/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	})();
+</script>
