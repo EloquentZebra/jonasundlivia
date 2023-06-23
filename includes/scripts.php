@@ -112,26 +112,6 @@
 		});
 	});
 </script>
-<!--
-Tracking
--->
 
 <!-- Umami -->
 <script async src="https://cornflower-yak.pikapod.net/script.js" data-website-id="7dbea3cf-f170-4b1b-b0d7-7b29722d01d6"></script>
-
-
-<!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//tangible-flounder.pikapod.net/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
