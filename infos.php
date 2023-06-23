@@ -20,7 +20,7 @@
 		<h1>Unser Hochzeitsfest</h1>
 			<ul>
 				<li>Datum: Samstag, 16. September 2023</li>
-				<li>Zeit: 15:00 Uhr bis maximal 04:00 Uhr</li>
+				<li>Zeit: ab 17 Uhr</li>
 				<li>Ort: <a href="#ort">siehe unten</a></li>
 			</ul>
 			<p>Schaue zu einem späteren Zeitpunkt gerne wieder hier vorbei. Wir schalten fortlaufend weitere Infos zu unserer Hochzeit auf.</p>
@@ -35,7 +35,7 @@
 		</div>
 	</article>
 
-	<article id="location">
+	<article id="ort">
 		<h1>Ort</h1>
 		<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
 		<div class="iframe-container">
@@ -52,6 +52,16 @@
 			</li>
 			<li>Auto: Auch die Anreise mit dem Auto ist möglich. Neben und beim Veranstaltungsort stehen genügend Parkplätze zur Verfügung.</li>
 		</ul>
+	</article>
+
+	<article id="dressocde">
+		<h1>Dresscode</h1>
+		<p>Infos folgen</p>
+	</article>
+
+	<article id="geschenk">
+		<h1>Hochzeitsgeschenk</h1>
+		<p>Infos folgen</p>
 	</article>
 
 	<article id="party">
