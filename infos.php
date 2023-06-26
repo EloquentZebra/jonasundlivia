@@ -24,7 +24,7 @@
 				<li>Ort: <a href="#ort">siehe unten</a></li>
 			</ul>
 			<p>Schaue zu einem späteren Zeitpunkt gerne wieder hier vorbei. Wir schalten fortlaufend weitere Infos zu unserer Hochzeit auf.</p>
-			<p>Fragen an <a href="mailto:management@jonasundlivia.ch">management@jonasundlivia.ch</a></p>
+			<p>Fragen an <a href="mailto:management@jonasundlivia.ch" data-umami-event="Click Button Kontakt Intro">management@jonasundlivia.ch</a></p>
 	</article>
 
 	<article id="anmeldung">
@@ -37,7 +37,7 @@
 
 	<article id="ort">
 		<h1>Ort</h1>
-		<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
+		<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer" data-umami-event="Click Link Tipioase">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
 		<div class="iframe-container">
 			<iframe src="<?php echo($formUrl); ?>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="anmeldung"></iframe>
 		</div>
