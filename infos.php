@@ -68,13 +68,13 @@
 		<h1>Ich bin immer noch nicht in Partystimmung 😓</h1>
 		<div class="row text-center-on-mobile">
 			<div class="col">
-				<button class="button-konfetti">Konfetti</button>
+				<button class="button-konfetti" data-umami-event="Click Button Konfetti">Konfetti</button>
 			</div>
 			<div class="col">
-				<button class="button-sound">Tröööt!</button>
+				<button class="button-sound" data-umami-event="Click Button Sound">Tröööt!</button>
 			</div>
 			<div class="col">
-				<button class="button-partymode" onclick="partyMode();">Partymodus</button>
+				<button class="button-partymode" onclick="partyMode();" data-umami-event="Click Button Partymode">Partymodus</button>
 			</div>
 		</div>
 	</article>
