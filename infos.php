@@ -27,14 +27,6 @@
 			<p>Fragen an <a href="mailto:management@jonasundlivia.ch" data-umami-event="Click Button Kontakt Intro">management@jonasundlivia.ch</a></p>
 	</article>
 
-	<article id="anmeldung">
-		<h1>Anmeldung</h1>
-		<p>Die Anmeldung ist bis zum 15. Juli möglich.</p>
-		<div class="iframe-container anmeldung">
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecJT-gSnljmoNy7KeCwV0hz1DVxEJxy8mrki8j_mO1QPG9nw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
-		</div>
-	</article>
-
 	<article id="ort">
 		<h1>Ort</h1>
 		<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer" data-umami-event="Click Link Tipioase">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
@@ -54,7 +46,7 @@
 		</ul>
 	</article>
 
-	<article id="dressocde">
+	<article id="dressocde" class="update">
 		<h1>Dresscode</h1>
 		<p>So, wie ihr euch wohl fühlt. Ihr dürft euch gerne auch ein bisschen chique machen.</p>
 	</article>
@@ -62,6 +54,14 @@
 	<article id="geschenk">
 		<h1>Hochzeitsgeschenk</h1>
 		<p>Infos folgen</p>
+	</article>
+
+	<article id="anmeldung">
+		<h1>Anmeldung</h1>
+		<p>Das Anmeldefenster ist zwar seit dem 15. Juli geschlossen, aber wir sind grosszügig und lassen dich dich auch noch verspätet anmelden 😉</p>
+		<div class="iframe-container anmeldung">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecJT-gSnljmoNy7KeCwV0hz1DVxEJxy8mrki8j_mO1QPG9nw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
+		</div>
 	</article>
 
 	<article id="party">
