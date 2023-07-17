@@ -56,7 +56,7 @@
 
 	<article id="dressocde">
 		<h1>Dresscode</h1>
-		<p>Infos folgen</p>
+		<p>So, wie ihr euch wohl fühlt. Ihr dürft euch gerne auch ein bisschen chique machen.</p>
 	</article>
 
 	<article id="geschenk">
@@ -66,6 +66,8 @@
 
 	<article id="party">
 		<h1>Ich bin immer noch nicht in Partystimmung 😓</h1>
+		<p>Mittlerweile haben wir von euch diverse Inputs erhalten für eine gute Stimmung. Gerne lassen wir euch daran teilhaben:</p>
+		<iframe src="https://open.spotify.com/embed/playlist/39QhWayBR7lUqtW2lCIvDm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 		<div class="row text-center-on-mobile">
 			<div class="col">
 				<button class="button-konfetti" data-umami-event="Click Button Konfetti">Konfetti</button>
