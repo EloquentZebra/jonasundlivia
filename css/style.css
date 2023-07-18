@@ -40,6 +40,7 @@ article {
 	padding: var(--gap);
 	margin-bottom: var(--gap);
 	box-shadow: var(--shadow);
+	position: relative;
 }
 
 article > *:first-child {
@@ -52,6 +53,21 @@ article > *:last-child {
 
 article h1 {
 	text-align: center;
+}
+
+article.update::after {
+	/* https://www.freecodecamp.org/news/make-a-css-only-ribbon/ */
+	--f: 0.75em;
+	--r: 1em;
+	--t: 0.75em;
+
+	position: absolute;
+	inset: var(--t) calc(-1*var(--f)) auto auto;
+	padding: 0 0.75em var(--f) calc(0.75em + var(--r));
+	clip-path:  polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)), var(--r) calc(50% - var(--f)/2));
+	background: #ed8f73;
+	box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+	content: "Update";
 }
 
 .iframe-container {
