@@ -25,6 +25,14 @@
 			</ul>
 			<p>Schaue zu einem späteren Zeitpunkt gerne wieder hier vorbei. Wir schalten fortlaufend weitere Infos zu unserer Hochzeit auf.</p>
 			<p>Fragen an <a href="mailto:management@jonasundlivia.ch" data-umami-event="Click Button Kontakt Intro">management@jonasundlivia.ch</a></p>
+			<section class="row">
+				<a href="#programm" class="button col">Zum Programm</a>
+				<a href="#ort" class="button col">Zu Ort + Anreise</a>
+				<a href="#dressocde" class="button col">zum Dresscode</a>
+				<a href="#geschenk" class="button col">zu Hochzeitsgeschenk</a>
+				<a href="#anmeldung" class="button col">zur Anmeldung</a>
+				<a href="#party" class="button col">zur Playlist</a>
+			</section>
 	</article>
 
 	<article id="programm" class="update">
