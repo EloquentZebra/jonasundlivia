@@ -27,6 +27,33 @@
 			<p>Fragen an <a href="mailto:management@jonasundlivia.ch" data-umami-event="Click Button Kontakt Intro">management@jonasundlivia.ch</a></p>
 	</article>
 
+	<article id="programm" class="update">
+		<h1>Programm</h1>
+		<section id="cd-timeline" class="cd-container">
+			<div class="cd-timeline-block">
+				<div class="cd-timeline-img cd-standard">
+					<img src="img/timeline/eintreffen.svg" alt="">
+				</div> <!-- cd-timeline-img -->
+				<div class="cd-timeline-content">
+					<h2>Eintreffen</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ullam nam perferendis neque quam quaerat quasi dolorem ex. Quia qui, excepturi aspernatur alias architecto quasi id quis neque nesciunt consequatur?</p>
+					<span class="cd-date">ab 15  Uhr</span>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div class="cd-timeline-img cd-standard">
+					<img src="img/timeline/food.svg" alt="">
+				</div> <!-- cd-timeline-img -->
+				<div class="cd-timeline-content">
+					<h2>Essen</h2>
+					<p>Bedient euch an den verschiedenen Ständen</p>
+					<span class="cd-date">ab 18  Uhr</span>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+		</section>
+	</article>
+
 	<article id="ort">
 		<h1>Ort</h1>
 		<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer" data-umami-event="Click Link Tipioase">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
