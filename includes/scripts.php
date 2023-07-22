@@ -115,3 +115,22 @@
 
 <!-- Umami -->
 <script async src="https://tracking.grujo.xyz/script.js" data-website-id="7dbea3cf-f170-4b1b-b0d7-7b29722d01d6"></script>
+
+<!-- Modal -->
+<script>
+	function openModal(name) {
+		document.getElementById(name).style.display = "block";
+
+		// Close modal when clicking outside of modal
+		window.onclick = function(event) {
+			if (event.target == document.getElementById(name)) {
+				document.getElementById(name).style.display = "none";
+			}
+		}
+
+		// Close modal when clicking on close button
+		document.getElementById(name).querySelector('.close').addEventListener('click', function() {
+			document.getElementById(name).style.display = "none";
+		});
+	}
+</script>

@@ -86,9 +86,21 @@
 		<p>So, wie ihr euch wohl fühlt. Ihr dürft euch gerne auch ein bisschen chique machen.</p>
 	</article>
 
-	<article id="geschenk">
+	<article id="geschenk" class="update">
 		<h1>Hochzeitsgeschenk</h1>
-		<p>Infos folgen</p>
+		<p>Wie du sicherlich weisst, haben wir vor einiger Zeit die Chance gehabt, ein Haus zu kaufen. Seit einigen Monaten wohnen wir jetzt bereits zusammen dort und sind immer mal wieder am etwas Umgestalten, Umstellen, Umbauen und was sonst noch alles machbar ist in einem Haus.</p>
+		<p>Gewisse Dinge schaffen wir aber leider nicht mit eigener Muskelkraft und Hirnschmalz und wir brauchen Hilfe von Fachpersonen.</p>
+		<p>Und weil bei einem Haus verschiedenste Dinge anstehen und diese nicht alle immer ganz günstig sind, wünschen wir uns auf unsere Hochzeit blalbalbal</p>
+		
+		<section class="gift-container">
+			<picture>
+				<source srcset="img/gift.avif" type="image/avif">
+				<source srcset="img/gift.webp" type="image/webp">
+				<img src="img/gift.jpg" alt="Geschenk" class="gift-img-bg">
+
+				<button onclick="openModal('keller');" class="gift-button">+</button>
+			</picture>
+		</section>
 	</article>
 
 	<article id="anmeldung">
@@ -102,7 +114,7 @@
 	<article id="party">
 		<h1>Ich bin immer noch nicht in Partystimmung 😓</h1>
 		<p>Mittlerweile haben wir von euch diverse Inputs erhalten für eine gute Stimmung. Gerne lassen wir euch daran teilhaben:</p>
-		<iframe src="https://open.spotify.com/embed/playlist/39QhWayBR7lUqtW2lCIvDm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+		<iframe src="https://open.spotify.com/embed/playlist/39QhWayBR7lUqtW2lCIvDm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" loading="lazy" style="border-radius: 0.25em; background-color:white;"></iframe>
 		<div class="row text-center-on-mobile">
 			<div class="col">
 				<button class="button-konfetti" data-umami-event="Click Button Konfetti">Konfetti</button>
@@ -118,6 +130,7 @@
 
 	<?php 
 		include('includes/footer.php');
+		include('includes/modals.php');
 		include('includes/scripts.php');
 	?>
 </body>
