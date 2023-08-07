@@ -36,20 +36,22 @@
 				</section>
 		</article>
 
-		<article id="programm" class="update">
+		<article id="programm">
 			<h1>Programm</h1>
+			<p>Folgt noch ...</p>
+			<!--
 			<section id="cd-timeline" class="cd-container">
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img cd-standard">
 						<img src="img/timeline/eintreffen.svg" alt="">
-					</div> <!-- cd-timeline-img -->
+					</div>
 					<div class="cd-timeline-content">
 						<h2>Eintreffen</h2>
 						<span class="cd-date">ab 17  Uhr</span>
-					</div> <!-- cd-timeline-content -->
-				</div> <!-- cd-timeline-block -->
+					</div>
+				</div>
 
-				<!--
+
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img cd-standard">
 						<img src="img/timeline/food.svg" alt="">
@@ -60,9 +62,10 @@
 						<span class="cd-date">ab 18  Uhr</span>
 					</div> 
 				</div>
-			-->
+
 			</section>
 		</article>
+		-->
 
 		<article id="ort">
 			<h1>Ort</h1>
