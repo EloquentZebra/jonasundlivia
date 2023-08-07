@@ -10,6 +10,7 @@
 <title>Jonas + Livia</title>
 <link rel="stylesheet" href="css/base.css?v=<?php echo($fileVersion); ?>">
 <link rel="stylesheet" href="css/style.css?v=<?php echo($fileVersion); ?>">
+<link rel="stylesheet" href="css/timeline.css?v=<?php echo($fileVersion); ?>">
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png?v=<?php echo($fileVersion); ?>">
