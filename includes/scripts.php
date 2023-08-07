@@ -120,17 +120,36 @@
 <script>
 	function openModal(name) {
 		document.getElementById(name).style.display = "block";
+		document.getElementById("content-wrapper").style.filter = "blur(5px)";
 
 		// Close modal when clicking outside of modal
 		window.onclick = function(event) {
 			if (event.target == document.getElementById(name)) {
 				document.getElementById(name).style.display = "none";
+				document.getElementById("content-wrapper").style.filter = "none";
+				hideBankverbindung();
 			}
 		}
 
 		// Close modal when clicking on close button
 		document.getElementById(name).querySelector('.close').addEventListener('click', function() {
 			document.getElementById(name).style.display = "none";
+			document.getElementById("content-wrapper").style.filter = "none";
+			hideBankverbindung();
 		});
+	}
+
+	function showBankverbindung() {
+		elms= document.querySelectorAll("[id='bankverbindung']");
+		for (var i = 0; i < elms.length; i++) {
+			elms[i].style.display = "block";
+		}		
+	}
+
+	function hideBankverbindung() {
+		elms= document.querySelectorAll("[id='bankverbindung']");
+		for (var i = 0; i < elms.length; i++) {
+			elms[i].style.display = "none";
+		}
 	}
 </script>
