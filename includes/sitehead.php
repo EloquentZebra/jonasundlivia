@@ -1,4 +1,4 @@
-<?php $fileVersion = '2.2'; ?>
+<?php $fileVersion = '2.3'; ?>
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

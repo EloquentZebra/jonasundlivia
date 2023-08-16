@@ -45,7 +45,7 @@
 					echo '<p class="text-center">Bitte melde dich mit dem Passwort an.</p>';
 				}
 			?>
-			<input type="password" name="password" id="password" placeholder="Passwort" class="text-center">
+			<input type="password" name="password" id="password" placeholder="Passwort" class="text-center" autofocus>
 			<input type="submit" value="Login">
 		</form>
 	</section>

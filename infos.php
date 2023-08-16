@@ -26,7 +26,7 @@
 				</ul>
 				<p>Schaue zu einem späteren Zeitpunkt gerne wieder hier vorbei. Wir schalten fortlaufend weitere Infos zu unserer Hochzeit auf.</p>
 				<p>Fragen an <a href="mailto:management@jonasundlivia.ch" data-umami-event="Click Button Kontakt Intro">management@jonasundlivia.ch</a></p>
-				<section class="row">
+				<section class="row text-center">
 					<a href="#programm" class="button col" data-umami-event="Click Navigation Programm">Zum Programm</a>
 					<a href="#ort" class="button col" data-umami-event="Click Navigation Ort">Zu Ort + Anreise</a>
 					<a href="#dressocde" class="button col" data-umami-event="Click Navigation Dresscode">zum Dresscode</a>
@@ -64,8 +64,9 @@
 				</div>
 
 			</section>
+			-->
 		</article>
-		-->
+
 
 		<article id="ort">
 			<h1>Ort</h1>
@@ -128,7 +129,7 @@
 			<h1>Ich bin immer noch nicht in Partystimmung 😓</h1>
 			<p>Mittlerweile haben wir von euch diverse Inputs erhalten für eine gute Stimmung. Gerne lassen wir euch daran teilhaben:</p>
 			<iframe src="https://open.spotify.com/embed/playlist/39QhWayBR7lUqtW2lCIvDm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" loading="lazy" style="border-radius: 0.25em; background-color:white;"></iframe>
-			<div class="row text-center-on-mobile">
+			<div class="row text-center">
 				<div class="col">
 					<button class="button-konfetti" data-umami-event="Click Button Konfetti">Konfetti</button>
 				</div>
