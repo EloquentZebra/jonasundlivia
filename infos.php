@@ -36,10 +36,7 @@
 				</section>
 		</article>
 
-		<article id="programm">
-			<h1>Programm</h1>
-			<p>Folgt noch ...</p>
-			<!--
+		<article id="programm" class="update">
 			<section id="cd-timeline" class="cd-container">
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img cd-standard">
@@ -59,12 +56,33 @@
 					<div class="cd-timeline-content">
 						<h2>Essen</h2>
 						<p>Bedient euch an den verschiedenen Ständen</p>
-						<span class="cd-date">ab 18  Uhr</span>
+						<span class="cd-date">17-21 Uhr</span>
+					</div> 
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-standard">
+						<img src="img/timeline/party.svg" alt="">
+					</div>
+					<div class="cd-timeline-content">
+						<h2>Party</h2>
+						<p>Schwingt das Tanzbein</p>
+						<span class="cd-date">ab 21:30 Uhr</span>
+					</div> 
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-standard">
+						<img src="img/timeline/ende.svg" alt="">
+					</div>
+					<div class="cd-timeline-content">
+						<h2>Ende Gelände</h2>
+						<p>Auch das schönste Fest geht leider irgendwann zu Ende.</p>
+						<span class="cd-date">03:00 Uhr</span>
 					</div> 
 				</div>
 
 			</section>
-			-->
 		</article>
 
 
@@ -90,6 +108,7 @@
 		<article id="dressocde" class="update">
 			<h1>Dresscode</h1>
 			<p>So, wie ihr euch wohl fühlt. Ihr dürft euch gerne auch ein bisschen chique machen.</p>
+			<p>Stilettos sind auf dem Areal nicht praktisch, gerne dürft ihr flache Schuhe anziehen.</p>
 		</article>
 
 		<article id="geschenk" class="update">
