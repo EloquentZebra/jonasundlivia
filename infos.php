@@ -86,7 +86,7 @@
 		</article>
 
 
-		<article id="ort">
+		<article id="ort" class="update">
 			<h1>Ort</h1>
 			<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer" data-umami-event="Click Link Tipioase">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
 			<div class="iframe-container">
@@ -101,7 +101,7 @@
 					ÖV: Mit der S-Bahn S3 oder der Tramlinie 10 bis zum <a href="https://beta.sbb.ch/de?date=%222023-09-16%22&moment=%22ARRIVAL%22&stops=[{%22label%22%3A%22%22%2C%22type%22%3A%22ID%22%2C%22value%22%3A%22%22}%2C{%22value%22%3A%228500118%22%2C%22type%22%3A%22ID%22%2C%22label%22%3A%22Dornach-Arlesheim%22}]&time=%2215%3A00%22" target="_blank" rel="noopener noreferrer">Bahnhof Dornach-Arlesheim</a> fahren und von dort aus dann ca. 15 Minuten bis zur Location spazieren.<br>
 					Näher bringt dich der Bus Nr. 66, Haltestelle <a href="https://beta.sbb.ch/de?date=%222023-09-16%22&moment=%22ARRIVAL%22&stops=%5B%7B%22label%22%3A%22%22%2C%22type%22%3A%22ID%22%2C%22value%22%3A%22%22%7D%2C%7B%22value%22%3A%228588751%22%2C%22type%22%3A%22ID%22%2C%22label%22%3A%22Dornach%2C+Metallwerke%22%7D%5D&time=%2215%3A00%22" target="_blank" rel="noopener noreferrer">Dornach, Metallwerke</a>. Von dort aus sind es noch gut 5 Minuten zu Fuss.			
 				</li>
-				<li>Auto: Auch die Anreise mit dem Auto ist möglich. Neben und beim Veranstaltungsort stehen genügend Parkplätze zur Verfügung.</li>
+				<li>Auto: Auch die Anreise mit dem Auto ist möglich. Neben und beim Veranstaltungsort stehen genügend Parkplätze zur Verfügung.<br>Für die Anreise mit dem Navi bitte nach &quot;<a href="https://www.google.com/maps/dir//Swissmetal+Industries+AG,+Weidenstrasse+50,+4143+Dornach/@47.4792417,7.6083138,565m/data=!3m1!1e3!4m12!1m2!2m1!1sswissmetal+dornach!4m8!1m0!1m5!1m1!1s0x4791c878fa027903:0x48d29e3589e4da35!2m2!1d7.6088469!2d47.4790875!3e3?entry=ttu" target="_blank" rel="noopener noreferrer">Swissmetal Dornach</a>&quot; navigieren. Die Navigation führt euch direkt vor das grosse Eingangstor des "Wydeneck-Areals". Der Parkplatz befindet sich dann direkt links <u>vor</u> dem grossen Tor. Danach folgt ein kurzer Fussweg: Unmittelbar nach dem grossen Tor und vor dem orangen Velopa-Gebäude rechts halten, nach 50 Metern dem Wegweiser folgen.</li>
 			</ul>
 		</article>
 
@@ -111,7 +111,7 @@
 			<p>Stilettos sind auf dem Areal nicht praktisch, gerne dürft ihr flache Schuhe anziehen.</p>
 		</article>
 
-		<article id="geschenk" class="update">
+		<article id="geschenk">
 			<h1>Hochzeitsgeschenk</h1>
 			<p>Wie du sicherlich weisst, haben wir vor einiger Zeit die Chance gehabt, ein Haus zu kaufen. Seit einigen Monaten wohnen wir jetzt bereits zusammen dort und sind immer mal wieder am etwas Umgestalten, Umstellen, Umbauen und was sonst noch alles machbar ist in einem Haus.</p>
 			<p>Gewisse Dinge schaffen wir aber leider nicht mit eigener Muskelkraft und Hirnschmalz und wir brauchen Hilfe von Fachpersonen.</p>
@@ -148,6 +148,7 @@
 			<h1>Ich bin immer noch nicht in Partystimmung 😓</h1>
 			<p>Mittlerweile haben wir von euch diverse Inputs erhalten für eine gute Stimmung. Gerne lassen wir euch daran teilhaben:</p>
 			<iframe src="https://open.spotify.com/embed/playlist/39QhWayBR7lUqtW2lCIvDm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" loading="lazy" style="border-radius: 0.25em; background-color:white;"></iframe>
+			<p>→ <a href="https://open.spotify.com/playlist/39QhWayBR7lUqtW2lCIvDm" target="_blank" rel="noopener noreferrer">Link zur Playlist</a></p>
 			<div class="row text-center">
 				<div class="col">
 					<button class="button-konfetti" data-umami-event="Click Button Konfetti">Konfetti</button>
