@@ -31,7 +31,6 @@
 					<a href="#ort" class="button col" data-umami-event="Click Navigation Ort">Zu Ort + Anreise</a>
 					<a href="#dressocde" class="button col" data-umami-event="Click Navigation Dresscode">zum Dresscode</a>
 					<a href="#geschenk" class="button col" data-umami-event="Click Navigation Geschenk">zu Hochzeitsgeschenk</a>
-					<a href="#anmeldung" class="button col" data-umami-event="Click Navigation Anmeldung">zur Anmeldung</a>
 					<a href="#party" class="button col" data-umami-event="Click Navigation Party">zur Playlist</a>
 				</section>
 		</article>
@@ -134,14 +133,6 @@
 			</div>
 
 			<p>Wenn du dich nicht entscheiden kannst, dann freuen wir uns auch so um deine «Blanko-Spende»: <a href="downloads/ez.pdf">Blanko-Einzahlungsschein herunterladen</a></p>
-		</article>
-
-		<article id="anmeldung">
-			<h1>Anmeldung</h1>
-			<p>Das Anmeldefenster ist zwar seit dem 15. Juli geschlossen, aber wir sind grosszügig und lassen dich dich auch noch verspätet anmelden 😉</p>
-			<div class="iframe-container anmeldung">
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecJT-gSnljmoNy7KeCwV0hz1DVxEJxy8mrki8j_mO1QPG9nw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
-			</div>
 		</article>
 
 		<article id="party">
