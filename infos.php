@@ -19,13 +19,41 @@
 	<div class="container wide" id="content-wrapper">
 		<article id="intro">
 			<h1>Unser Hochzeitsfest</h1>
-				<ul>
-					<li>Datum: Samstag, 16. September 2023</li>
-					<li>Zeit: ab 17 Uhr</li>
-					<li>Ort: <a href="#ort">siehe unten</a></li>
-				</ul>
-				<p>Schaue zu einem späteren Zeitpunkt gerne wieder hier vorbei. Wir schalten fortlaufend weitere Infos zu unserer Hochzeit auf.</p>
-				<p>Fragen an <a href="mailto:management@jonasundlivia.ch" data-umami-event="Click Button Kontakt Intro">management@jonasundlivia.ch</a></p>
+			<p>Bald ist es soweit und wir feiern! (Hoffentlich) alle Infos dazu findest du auf dieser Internetseite.</p>
+			<p>Es fehlt dir noch etwas oder du hast eine Frage? Dann melde dich bei uns:</p>
+			<ul>
+				<li>Melina: <a href="tel:+41795766353">+41 79 576 63 53</a>, <a href="mailto:melinastrahm@bluewin.ch">melinastrahm@bluewin.ch</a></li>
+				<li>Jonas: <a href="tel:+41795088365">+41 79 508 83 65</a>, <a href="mailto:jonas.grueter@gmail.com">jonas.grueter@gmail.com</a></li>
+			</ul>
+
+			<?php
+				$rand = rand(1, 100);
+				if($rand >= 45) {
+					?>
+					<figure>
+						<picture>
+							<source srcset="img/standesamt.jpg" type="image/avif">
+							<source srcset="img/standesamt.jpg" type="image/jpeg">
+							<img src="img/standesamt.jpg" alt="Das Brautpaat kurz vor der Standesamtlichen Hochzeit" loading="lazy">
+						</picture>
+						<figcaption>Das Brautpaar kurz vor der Standesamtlichen Hochzeit</figcaption>
+					</figure>
+					<?php
+				} else {
+					?>
+					<figure>
+						<picture>
+							<source srcset="img/standesamt2.jpg" type="image/avif">
+							<source srcset="img/standesamt2.jpg" type="image/jpeg">
+							<img src="img/standesamt2.jpg" alt="Das Brautpaar und die Trauzeugen kurz nach der standesamtlichen Hochzeit." loading="lazy">
+						</picture>
+						<figcaption>Das Brautpaar und die Trauzeugen kurz nach der standesamtlichen Hochzeit.</figcaption>
+					</figure>
+			<?php
+				}
+			?>
+			
+
 				<section class="row text-center">
 					<a href="#programm" class="button col" data-umami-event="Click Navigation Programm">Zum Programm</a>
 					<a href="#ort" class="button col" data-umami-event="Click Navigation Ort">Zu Ort + Anreise</a>
@@ -35,7 +63,7 @@
 				</section>
 		</article>
 
-		<article id="programm" class="update">
+		<article id="programm">
 			<section id="cd-timeline" class="cd-container">
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img cd-standard">
@@ -43,6 +71,7 @@
 					</div>
 					<div class="cd-timeline-content">
 						<h2>Eintreffen</h2>
+						<p>ab 17 Uhr in der <a href="#ort">Tipioase</a></p>
 						<span class="cd-date">ab 17  Uhr</span>
 					</div>
 				</div>

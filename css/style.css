@@ -260,3 +260,20 @@ iframe {
 	width: 1.5em;
 	border-radius: 50%;
 }
+
+picture {
+	margin-bottom: 0;
+}
+
+figure {
+	margin: var(--gap) 0;
+}
+
+figure img {
+	max-width: 800px;
+	height: 800px;
+}
+
+figure figcaption {
+	text-align: center;
+}
