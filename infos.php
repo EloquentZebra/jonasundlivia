@@ -111,15 +111,15 @@
 				</div>
 
 			</section>
-		</article>
+		</article>1
 
 
 		<article id="ort" class="update">
 			<h1>Ort</h1>
 			<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer" data-umami-event="Click Link Tipioase">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
-			<div class="iframe-container">
-				<iframe src="<?php echo($formUrl); ?>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="anmeldung"></iframe>
-			</div>
+			
+			<p>Der Geländeplan:</p>
+			<img src="img/geländeplan.jpg" alt="Geländeplan">
 
 			<h1>Anreise</h1>
 			<p>Folgende Variante für die Anreise sind möglich:</p>
