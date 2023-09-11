@@ -20,7 +20,7 @@
 		<article id="intro">
 			<h1>Unser Hochzeitsfest</h1>
 			<p>Bald ist es soweit und wir feiern! (Hoffentlich) alle Infos dazu findest du auf dieser Internetseite.</p>
-			<p>Es fehlt dir noch etwas oder du hast eine Frage? Dann melde dich bei uns:</p>
+			<p>Es fehlt dir noch etwas oder du hast eine Frage? Dann melde dich bei den Trauzeugen:</p>
 			<ul>
 				<li>Melina: <a href="tel:+41795766353">+41 79 576 63 53</a>, <a href="mailto:melinastrahm@bluewin.ch">melinastrahm@bluewin.ch</a></li>
 				<li>Jonas: <a href="tel:+41795088365">+41 79 508 83 65</a>, <a href="mailto:jonas.grueter@gmail.com">jonas.grueter@gmail.com</a></li>
@@ -111,10 +111,10 @@
 				</div>
 
 			</section>
-		</article>1
+		</article>
 
 
-		<article id="ort" class="update">
+		<article id="ort">
 			<h1>Ort</h1>
 			<p><a href="https://www.tipioase.ch/" target="_blank" rel="noopener noreferrer" data-umami-event="Click Link Tipioase">Tipioase</a>, Weidenstrasse 50, 4143 Dornach</p>
 			
@@ -133,7 +133,7 @@
 			</ul>
 		</article>
 
-		<article id="dressocde" class="update">
+		<article id="dressocde">
 			<h1>Dresscode</h1>
 			<p>So, wie ihr euch wohl fühlt. Ihr dürft euch gerne auch ein bisschen chique machen.</p>
 			<p>Stilettos sind auf dem Areal nicht praktisch, gerne dürft ihr flache Schuhe anziehen.</p>
