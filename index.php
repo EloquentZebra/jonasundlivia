@@ -49,6 +49,5 @@
 			<input type="submit" value="Login">
 		</form>
 	</section>
-	<script async src="https://cornflower-yak.pikapod.net/script.js" data-website-id="7dbea3cf-f170-4b1b-b0d7-7b29722d01d6"></script>
 </body>
 </html>
