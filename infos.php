@@ -22,7 +22,9 @@
 			<p>Wir durften mit euch ein wunderbares Fest feiern - selten gingen wir so glücklich ins Bett wie am Sonntagmorgen früh.</p>
 			<p>Danke, dass ihr Teil des Fests wart. Danke, dass ihr uns mit so grosszügigen Geschenken beschenkt habt. Danke, dass ihr da wart.</p>
 			<p>Schaut in den nächsten Tagen hier mal wieder vorbei. Nach und nach schalten wir Fotos vom Fest auf.</p>
-	</article>
+			<br>
+				<p>Du möchtest uns noch was an unsere Hausrenovation geben? Dann nütze dafür den <a href="downloads/ez.pdf">Blanko-Einzahlungsschein</a>. Danke im Voraus!</p>
+		</article>
 
 	<?php 
 		include('includes/footer.php');
