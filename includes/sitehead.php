@@ -1,4 +1,4 @@
-<?php $fileVersion = '2.5'; ?>
+<?php $fileVersion = '3.0'; ?>
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
 <meta name="referrer" content="no-referrer">
 
 <title>Jonas + Livia</title>
-<link rel="stylesheet" href="css/base.css?v=<?php echo($fileVersion); ?>">
+<link rel="stylesheet" href="https://files.grujo.ch/base.css?v=<?php echo($fileVersion); ?>">
 <link rel="stylesheet" href="css/style.css?v=<?php echo($fileVersion); ?>">
 
 <!-- Favicon -->

@@ -28,7 +28,7 @@
 </head>
 <body class="login-page text-center">
 	<section class="wrapper login-wrapper container ">
-		<h1 class="text-center"><strong>Wir heiraten.</strong></h1>
+		<h1 class="text-center"><strong>Wir haben geheiratet.</strong></h1>
 		<form action="" method="post">
 			<?php
 				if (isset($_POST['password'])) {

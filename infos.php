@@ -24,19 +24,19 @@
 			<h1>Vielen Dank!</h1>
 			<p>Wir durften mit euch ein wunderbares Fest feiern - selten gingen wir so glücklich ins Bett wie am Sonntagmorgen früh.</p>
 			<p>Danke, dass ihr Teil des Fests wart. Danke, dass ihr uns mit so grosszügigen Geschenken beschenkt habt. Danke, dass ihr da wart.</p>
+			<p>Du möchtest uns noch was an unsere Hausrenovation geben? Dann nütze dafür den <a href="downloads/ez.pdf">Blanko-Einzahlungsschein</a>. Danke im Voraus!</p>
 		</article>
 
 		<article>
 			<h1>Bilder</h1>
-			<div class="warning text-center">
-				<p>Achtung: Die Bilder in der Galerie sind nur in reduzierter Auflösung!</p>
-				<p>In voller Auflösung können die Bilder hier heruntergeladen werden:</p>
+			<div class="galerie-grid">
+				<div class="warning text-center">
+				<p>Alle Bilder in voller Auflösung herunterladen:</p>
 				<a href="downloads/bilder.zip"><button class="download-button">Bilder herunterladen</button></a>
 				<p class="small download-meta">.zip-Ordner mit 111 Bildern, total 1 GB</p>
 				</div>
-			<div class="galerie-grid">
 				<?php
-					$dirname = 'img/hochzeit/';
+					$dirname = 'img/hochzeit/scaled/';
 					$images = glob($dirname."*.*");
 					natsort($images);
 					
@@ -44,7 +44,7 @@
 							echo '
 								<div class="grid-img-container">
 									<img src="'.$image.'" class="spotlight" alt="Hochzeit Jonas + Livia" loading="lazy">
-									<p><a href="'.$image.'" class="download-button" download>Bild herunterladen</a></p>
+									<p class="small image-download text-center"><a class="" href="img/hochzeit/'.basename($image).'">Bild herunterladen</a></p>
 								</div>
 								';
 					}
