@@ -31,7 +31,7 @@ body {
 	background-size: 100%;
 	background-position: center;
 	background-repeat: repeat;
-	padding: var(--gap);
+	padding: var(--gap) 0 var(--gap) 0;
 }
 
 article {
@@ -55,225 +55,55 @@ article h1 {
 	text-align: center;
 }
 
-article.update::after {
-	/* https://www.freecodecamp.org/news/make-a-css-only-ribbon/ */
-	--f: 0.75em;
-	--r: 1em;
-	--t: 0.75em;
-
-	position: absolute;
-	inset: var(--t) calc(-1*var(--f)) auto auto;
-	padding: 0 0.75em var(--f) calc(0.75em + var(--r));
-	clip-path:  polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)), var(--r) calc(50% - var(--f)/2));
-	background: #ed8f73;
-	box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
-	content: "Update";
-}
-
-.iframe-container {
-	display: block;
-	width: 100%;
-	height: 350px;
-}
-
-.iframe-container.anmeldung {
-	height: 750px !important;
-}
-
-iframe {
-	width: 100%;
-	height: 100%;
-	border-radius: var(--border-radius);
-}
 
 .login-wrapper input {
 	margin: var(--gap) auto;
 }
 
-.branch-container {
-	position: absolute;
-	z-index: -1;
+.warning {
+	background-color: hsla(14, 77%, 69%, 25%);
+	border: 0.1em solid var(--color-main-4);
+	border-radius: var(--border-radius);
+	padding: calc(var(--gap) / 2);
 }
 
-.branch-container img {
-	object-fit: contain;
+.download-button {
+	margin-top: 0;
 }
 
-.branch-1 {
-	position: absolute;
-	top: 2em;
-	left: 1em;
-	width: 550px;
-	height: 550px;
-	transform: rotate(98deg);
-}
-
-.branch-2 {
-	position: absolute;
-	top: -5em;
-	right: -10em;
-	width: 800px;
-	height: 800px;
-	transform: rotate(268deg) scaleX(-1);
-}
-
-
-/* Geschenk */
-.gift-container-wrapper {
-	overflow: hidden;
-}
-
-@media (max-width: 900px) {
-	.gift-container-wrapper {
-		overflow-x: scroll;
-	}
-}
-
-.gift-container {
-	position: relative;
-	width: 640px;
-	height: 745px;
-	margin: 0 auto;
-}
-
-.gift-img-bg {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	border-radius: calc(var(--border-radius) / 2);
-}
-
-.gift-container > button {
-	position: absolute;
-}
-
-.btn-keller {
-	bottom: 75px;
-	right: 100px;
-}
-
-.btn-parterre {
-	bottom: 175px;
-	right: 200px;
-}
-
-.btn-allgemein {
-	top: 460px;
-	left: 25px;
-}
-
-.btn-dachstock {
-	top:175px;
-	right: 400px;
-}
-
-.btn-ersterstock {
-	top: 300px;
-	right: 300px;
-}
-
-.btn-garten {
-	top: 500px;
-	right: -25px;
-}
-
-.gift-button {
-	width: 2em;
-	height: 2em;
+.download-meta {
 	margin: 0;
 	padding: 0;
-	font-size: 2rem;
-	line-height: 1;
 }
 
-.modal-container {
-	background-color: rgba(0, 0, 0, 0.5);
+.galerie-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: var(--gap);
+	padding: var(--gap) 0 var(--gap) 0;
 }
 
-.modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+.galerie-grid img {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-	position: relative;
-	background-color: #fefefe;
-	margin: 5em auto; /* 15% from the top and centered */
-	max-height: calc(100% - 10em);
-	padding: 1em;
-	border: 1px solid #888;
-	border-radius: var(--border-radius);
-	overflow-y: auto;
-}
-
-.modal-content h2 {
-	text-align: center;
-	margin-top: 0;
-	padding-top: 0;
-}
-
-.gift-options {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: calc(var(--gap) / 2);
-}
-
-@media (max-width: 768px) {
-	.gift-options {
-		grid-template-columns: 1fr;
-	}
-}
-
-.modal-content .vote-button {
 	margin: 0;
-	padding: 0.25em 0.5em;
-}
-
-.modal-content .bankverbindung {
-	display: none;
-	border: 1px solid var(--color-text);
-	margin: var(--gap);
-	padding: calc(var(--gap) / 2);
-	border-radius: var(--border-radius);
-}
-
-.modal-content .close {
-	position: absolute;
-	top: 0.5em;
-	right: 0.5em;
+	object-fit: cover;
 	cursor: pointer;
-	font-size: 1em;
-	padding: 0.25em;
+}
+
+.grid-img-container img:hover {
+	transform: scale(1.025) rotate(1deg);
+}
+
+.image-download {
 	margin: 0;
-	line-height: 100%;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.25);
-	height: 1.5em;
-	width: 1.5em;
-	border-radius: 50%;
+	padding: 0;
 }
 
-picture {
-	margin-bottom: 0;
+#spotlight.show {
+	font-family: var(--font-sans);
 }
 
-figure {
-	margin: var(--gap) 0;
-}
-
-figure img {
-	max-width: 800px;
-	height: 800px;
-}
-
-figure figcaption {
-	text-align: center;
+#spotlight.show img {
+	border-radius: 0;
 }
