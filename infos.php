@@ -43,8 +43,10 @@
 					foreach($images as $image) {
 							echo '
 								<div class="grid-img-container">
-									<img src="'.$image.'" class="spotlight" alt="Hochzeit Jonas + Livia" loading="lazy">
-									<p class="small image-download text-center"><a class="" href="img/hochzeit/'.basename($image).'">Bild herunterladen</a></p>
+									<div class="grid-img-zoom-container">
+										<img src="'.$image.'" class="spotlight" alt="Hochzeit Jonas + Livia" loading="lazy">
+									</div>
+									<p class="image-download text-center"><a class="" href="img/hochzeit/'.basename($image).'">Bild herunterladen</a></p>
 								</div>
 								';
 					}
