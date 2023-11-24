@@ -25,6 +25,7 @@
 			<p>Wir durften mit euch ein wunderbares Fest feiern - selten gingen wir so glücklich ins Bett wie am Sonntagmorgen früh.</p>
 			<p>Danke, dass ihr Teil des Fests wart. Danke, dass ihr uns mit so grosszügigen Geschenken beschenkt habt. Danke, dass ihr da wart.</p>
 			<p>Du möchtest uns noch was an unsere Hausrenovation geben? Dann nütze dafür den <a href="downloads/ez.pdf">Blanko-Einzahlungsschein</a>. Danke im Voraus!</p>
+			<p>Wir haben noch weitere Bilder erhalten, welche unsere super Fotografin aber nicht ganzbso schön bearbeitete wie die untenstehenden. Möchtest du sie trotzdem anschauen? Dann melde dich bei uns.</p>
 		</article>
 
 		<article>
@@ -33,7 +34,6 @@
 				<div class="warning text-center">
 				<p>Alle Bilder in voller Auflösung herunterladen:</p>
 				<a href="downloads/bilder.zip"><button class="download-button">Bilder herunterladen</button></a>
-				<p class="small download-meta">.zip-Ordner mit 111 Bildern, total 1 GB</p>
 				</div>
 				<?php
 					$dirname = 'img/hochzeit/scaled/';
@@ -46,14 +46,13 @@
 									<div class="grid-img-zoom-container">
 										<img src="'.$image.'" class="spotlight" alt="Hochzeit Jonas + Livia" loading="lazy">
 									</div>
-									<p class="image-download text-center"><a class="" href="img/hochzeit/'.basename($image).'">Bild herunterladen</a></p>
+									<p class="image-download text-center"><a class="" href="img/hochzeit/'.basename($image).'" download>Bild herunterladen</a></p>
 								</div>
 								';
 					}
 				?>
 			</div>
 		</article>
-
 
 	<?php 
 		include('includes/footer.php');
